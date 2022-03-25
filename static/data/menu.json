@@ -1,0 +1,42 @@
+{
+    "Appetizers": [
+        {
+            "name" : "Miso Soup",
+            "price": "$2.10"
+        },
+        {
+            "name": "Brown Rice",
+            "price": "$3.80"
+        }
+    ],
+    "Main Dish": [
+        {
+            "name": "Teryaki with Noodles",
+            "price": "$14.55"
+        },
+        {
+            "name": "Spicy Tuna Roll",
+            "price": "$6.95"
+        }
+    ],
+    "Desserts": [
+        {
+            "name": "Banana Sushi",
+            "price": "$6.85"
+        },
+        {
+            "name": "Puri",
+            "price": "$5.95"
+        }
+    ],
+    "Drinks": [
+        {
+            "name": "ginger ale",
+            "price": "$2.30"
+        },
+        {
+            "name": "coke",
+            "price": "$1.32"
+        }
+    ]
+}

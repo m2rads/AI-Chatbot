@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kamato Sushi</title>
+    <!-- <a href="https://www.flaticon.com/free-icons/sushi" title="sushi icons">Sushi icons created by Freepik - Flaticon</a>-->
+    <link rel="icon" type="image/x-icon" href="./static/assets/nigiri.png">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="../static/styles/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./static/styles/chat.css" type="text/css" />
+        
+    <!-- Scripts -->
+    <script type="text/javascript" src="./static/scripts/populateMenu.js" defer></script>
+    <script type="text/javascript" src="./static/scripts/chat.js" defer></script>
+
+    {% block script %}
+    {% endblock %}
+</head>
+<body>
+
+<main>
+
+    {% include "includes/navbar.html" %}
+    
+    {% block content %}  
+    {% endblock %}
+    
+</main>
+    {% include "includes/footer.html" %}
+</body>
+</html>

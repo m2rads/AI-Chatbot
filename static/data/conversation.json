@@ -1,0 +1,29 @@
+{
+    "conversations": [
+        {
+            "question": "Hello",
+            "response": "Hi, my name is Gordon Ramsey! What can I get ya?"
+        },
+        {
+            "question": "Can I get ",
+            "response": "Sure, is there anything else?"
+        },
+        
+        {
+            "question": "No, thanks",
+            "response": "Ok, so your total for today is "
+        },
+        {
+            "question": "Can I add ",
+            "response": "Sure"
+        },
+        {
+            "question": "Can I also ",
+            "response": "Yes, is that all?"
+        },
+        {
+            "question": "Yes",
+            "response": "Great, your total is "
+        }
+    ]
+}

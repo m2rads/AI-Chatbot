@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+/* Global Style */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navigation */
+.navigation-list {
+    text-align: right;
+}
+
+/*  container layout */
+.nav-container {
+    margin: 0 auto;
+    width: 90%; 
+}
+.container {
+    margin: 0 auto;
+    width: 80%; 
+}
+
+.layout {
+    display: flex;
+}
+
+.layout > * {
+    flex: 1 3 auto;
+}
+
+/* header */
+header {
+    background-color: #fefefe;
+    padding: 20px 0;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    border-bottom: 0.75px solid black;
+}
+
+.hero {
+    background-color: #fefefe;
+    padding: 25px 0; 
+}
+
+.hero > .container {
+    align-items: center;
+}
+
+.hero > .container > * {
+    padding: 30px 0;
+    font-weight: 300;
+    font-size: 26px;
+    /*line-height: 32px;*/
+}
+
+.hero > .container > div > * {
+    margin-bottom: 30px;
+}
+
+.hero-figure {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #346F91ff;
+    background-color: #F9D8ADff;
+    border: 2px solid #FFBA55ff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 20px;
+}
+
+.order-button:hover {
+    background-color: #FFE9D2;
+    color: #123C54;
+}
+
+/* menu */
+.menu {
+    padding-bottom: 20px;
+}
+
+.title {
+    padding: 30px 0;
+    margin-bottom: 30px;
+    border-bottom: 0.75px solid black;
+}
+
+.menu .title {
+    justify-content: flex-end;
+}
+
+.menu .title > * {
+    flex: 1;
+}
+
+.menu .title h1:nth-child(2) {
+    text-align: right;
+}
+
+.menu .items {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.menu .items > * {
+    margin-left: 5px;
+    width: 50%;
+}
+.items:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.items a {
+    display: inline;
+    padding: 5px 8px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* aside */
+aside div > * {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+
+/* footer */
+footer {
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 0.75px solid black;
+    color: black;
+}
+
