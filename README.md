@@ -1,4 +1,4 @@
-# Flask Chatterbot
+# InteliWaiter
 
 This project was developed with Flask version 2.0.3
 
