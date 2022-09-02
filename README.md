@@ -1,4 +1,4 @@
-# InteliWaiter
+# AI Chatbot
 
 This project was developed with Flask version 2.0.3
 
@@ -8,7 +8,7 @@ Run `python main.py` for a dev server. Navigate to `http://localhost:5000/`. You
 
 ## Code scaffolding
 
-Run `python requirments.txt` to install all the dependencies.
+Run `pip install -r requirements.txt` to install all the dependencies.
 
 ## Further Info
 

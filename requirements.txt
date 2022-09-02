@@ -1,4 +1,4 @@
 Flask==1.1.2
 Flask-RESTful==0.3.8
 Flask-SQLAlchemy==2.4.3
-chatterbot==1.0.8
+chatterbot==1.0.5
